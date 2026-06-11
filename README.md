@@ -7,13 +7,13 @@ Self-packaged [lazydocker](https://github.com/jesseduffield/lazydocker), suitabl
 
 ### 直接下载 .deb 文件
 
-直接从 [Releases](https://github.com/wcbing-build/lazydocker-debs/releases) 下载 .deb 文件。
+直接从 [Releases](https://github.com/wcbing-apt-repo/lazydocker-debs/releases) 下载 .deb 文件。
 
 ### 添加 apt 仓库
 
 ```sh
 echo "Types: deb
-URIs: https://github.com/wcbing-build/lazydocker-debs/releases/latest/download/
+URIs: https://github.com/wcbing-apt-repo/lazydocker-debs/releases/latest/download/
 Suites: ./
 Trusted: yes" | sudo tee /etc/apt/sources.list.d/lazydocker.sources
 sudo apt update
